@@ -4,7 +4,7 @@ import string
 import psycopg2 as psql
 import vk
 
-connection = psql.connect(dbname='crawlerone', user='postgres', password='', host='localhost')
+connection = psql.connect(dbname='crawlerone', user='postgres', password='postgres', host='localhost')
 cursor = connection.cursor()
 
 now = datetime.datetime.now()
